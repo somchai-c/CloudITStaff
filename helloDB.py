@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # Database
 #app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://webadmin:IMSxfs09671@node7539-it-scp-cloud.app.ruk-com.cloud:11064/CloudDB'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://webadmin:IMSxfs09671@node7539-it-scp-cloud.app.ruk-com.cloud:11064/CloudDB'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://webadmin:IMSxfs09671@10.100.2.148:5432/CloudDB'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 # Init db
 db = SQLAlchemy(app)
